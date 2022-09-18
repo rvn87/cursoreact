@@ -1,17 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import Articulo from './Componentes/Articulo';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola mundo
-        </p>
-      </header>
-    </div>
-  );
+  return <Articulo />
 }
 
 export default App;
