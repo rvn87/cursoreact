@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PilasConvencionales from './Pilas';
 import BateriasLitio from './Baterias';
 import BateriasHidrogeno from './Hidrogeno';
+import Likes from './Likes';
 
 class Articulo extends Component{
 
@@ -11,6 +12,7 @@ class Articulo extends Component{
             <PilasConvencionales />
             <BateriasLitio />
             <BateriasHidrogeno />
+            <Likes />
         </div>
         )
     }
