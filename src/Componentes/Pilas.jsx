@@ -10,7 +10,7 @@ function PilasConvencionales() {
                 A pesar del auge de las energias renovables, 
                 las pilas convencionales siguen utilizandose a diario.
             </p>
-            <Autonomia km='Con este tipo de bateria no se puede' />
+            <Autonomia km={ 0 } />
             <Carga carga="No" />
         </div>
     );
