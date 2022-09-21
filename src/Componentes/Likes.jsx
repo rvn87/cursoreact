@@ -12,7 +12,7 @@ class Likes extends Component{
 
     subirLikes = () => {
         this.setState({
-            contadorLikes: this.state.contadorLikes + 1
+            contadorLikes: this.state.contadorLikes + 1 // yo he usado this.sate.xxx pero mejor recibir prevState (greeting.jsx) 
         });
     }
     
